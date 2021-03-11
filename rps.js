@@ -34,7 +34,7 @@ function playGame() {
   resultsBox.innerText = `You played ${playerMove}, the computer played ${computerMove}.`;
 
   if (calculateWinner() === -1) {
-    resultsBox.innerText += "You lose";
+    resultsBox.innerText += " You lose";
     score = score -1;
   } else if (calculateWinner() === 0) {
     resultsBox.innerText += "You draw";
