@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 100px;
+    padding: 10px;
+    opacity: 0.75;
+
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+footer {
+    padding-top: 20px;
+    font-size: small;
+    color: gray;
+}
